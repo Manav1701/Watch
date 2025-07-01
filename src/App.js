@@ -9,6 +9,7 @@ function App() {
  }
   return(
     <>
+    <div className="container">
      <select className='dropdown'onChange={changeColor} >
       <option value={"blue"}>Blue</option>
       <option value={"red"}>Red</option>
@@ -16,6 +17,7 @@ function App() {
       <option value={"aqua"}>Aqua</option>
      </select>
     <Clock colors={color}/> 
+    </div>
     </>
   ); 
 }
